@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e0ece4;
+}
+.detailedList_Box {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 2px 27px 6px rgba(0, 0, 0, .12);
+    border-radius: 10px;
+    background-color: #ecf4f3;
+}
+.detailedList_Box .listtitle {
+    margin-top: 10px;
+    color: #94b4a4;
+    text-align: center;
+}
+.listtitle h1 {
+    font-family: "幼圆";
+    font-weight: 400;
+}
+.detailedList_Box .add_box {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_box input {
+    outline: none;
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #94b4a4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.add_box button {
+    outline: none;
+    width: 35px;
+    height: 35px;
+    font-family: "幼圆";
+    border: 1px solid #94b4a4;
+    border-left: 1px solid transparent;
+    color: white;
+    background-color: #94b4a4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.add_box button:hover {
+    color: #94b4a4;
+    background-color: white;
+}
+/* 内容 */
+.detailedList_Box .content_box {
+    padding: 10px;
+}
+.content_box h1 {
+    font-weight: 800;
+    text-align: center;
+    font-family: "幼圆";
+    margin-bottom: 5px;
+    color: #d7385e;
+}
+.content_box .content {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #94b4a4;
+    position: relative;
+}
+.content .text_box {
+    background-color: tomato;
+}
